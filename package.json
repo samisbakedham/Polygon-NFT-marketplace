@@ -19,7 +19,7 @@
     "@web3-react/network-connector": "6.1.9",
     "@web3-react/walletconnect-connector": "6.2.4",
     "bignumber.js": "^9.0.1",
-    "daisyui": "1.14.0",
+    "daisyui": "1.25.4",
     "loglevel": "1.7.1",
     "mdb-react-ui-kit": "^1.4.0",
     "next": "11.1.2",
