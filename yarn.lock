@@ -2450,6 +2450,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@snyk/protect@^1.893.0":
+  version "1.893.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.893.0.tgz#631f7fe4f4bdfea96012f6abb46e8c7bdd097440"
+  integrity sha512-QHia0qAw3a+jGsAQzE87wVNclVtVy0kQAneloX1y1Ay/7Ks2wMAl1doNfr+MUrloxegoKJwiQU4msuKD/YwQjw==
+
 "@solidity-parser/parser@^0.11.0":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.11.1.tgz#fa840af64840c930f24a9c82c08d4a092a068add"

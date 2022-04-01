@@ -6,9 +6,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
+    "prepare": "yarn run snyk-protect && husky install",
     "lint:sol": "npx solhint 'contracts/**/*.sol'",
-    "test": "mocha --exit --recursive"
+    "test": "mocha --exit --recursive",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@ethersproject/providers": "5.4.5",
@@ -31,7 +32,8 @@
     "react-select": "^5.1.0",
     "web3": "^1.5.3",
     "web3-eth-contract": "^1.5.3",
-    "web3-react": "5.0.5"
+    "web3-react": "5.0.5",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "2.0.2",
@@ -84,5 +86,6 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  }
+  },
+  "snyk": true
 }
